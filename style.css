@@ -65,3 +65,8 @@ body{
     min-width: 500px;
     background-color: blanchedalmond;
 }
+
+.rhs{
+    width: 350px;
+    margin: 20px;
+}
