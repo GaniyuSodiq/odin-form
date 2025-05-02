@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 800px;
+    margin: 0px auto;
+    display: flex;
+    height: 100vh;
+}
+
+.odin-hero{
+    min-width: 300px;
+    background-color: aquamarine;
+    background-image: url("files/halie-west-25xggax4bSA-unsplash.jpg");
+    background-size: cover;
+    padding: 100px 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.odin-logo img{
+    height: 50px;
+}
+.odin-logo{
+    display: flex;
+    height: 70px;
+    background-color: rgba(0, 0, 0, 0.559);
+    color: white;
+}
+
+.footer{
+    color: white;
+    font-size: .8rem;
+    text-align: center;
+}
+
+.footer a{
+    color: inherit;
+}
+
+.content{
+    min-width: 500px;
+    background-color: blanchedalmond;
+}
