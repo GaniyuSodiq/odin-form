@@ -13,9 +13,11 @@
 
 body{
     min-width: 800px;
-    margin: 0px auto;
+    /* margin: 0px auto; */
     display: flex;
     height: 100vh;
+    justify-content: center;
+
 }
 
 .odin-hero{
