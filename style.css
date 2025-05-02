@@ -4,6 +4,13 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Norse;
+    src: url(files/Norse-Bold.otf);
+    font-weight: normal;
+    font-style: normal;
+}
+
 body{
     min-width: 800px;
     margin: 0px auto;
@@ -22,18 +29,29 @@ body{
     justify-content: space-between;
 }
 .odin-logo img{
-    height: 50px;
+    height: 70px;
+    margin-left: auto;
 }
+
+.odin-logo h1{
+    height: 50px;
+    margin-right: auto;
+    /* margin-top: 20px; */
+    font-family: "Norse", "Arial", sans-serif;
+    font-size: 3.5rem;
+}
+
 .odin-logo{
     display: flex;
-    height: 70px;
+    height: 90px;
     background-color: rgba(0, 0, 0, 0.559);
     color: white;
+    align-items: center;
 }
 
 .footer{
     color: white;
-    font-size: .8rem;
+    font-size: .7rem;
     text-align: center;
 }
 
