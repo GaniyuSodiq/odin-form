@@ -154,3 +154,8 @@ input:invalid {
     font-weight: bold;
     cursor: pointer;
 }
+
+button + p{
+    font-size: .7rem;
+    font-weight: 500;
+}
