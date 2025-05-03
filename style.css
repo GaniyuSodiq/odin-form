@@ -64,7 +64,7 @@ body{
 
 .rhs{
     width: 450px;
-    margin: 70px 30px;
+    margin: 30px;
     
 }
 
@@ -75,12 +75,17 @@ body{
     font-size: .9rem;
     line-height: 1.4;
     color: #333;
+    padding: 40px 0;
 }
 
 .hero-text{
 
 }
 
-.hero-text p{
+.hero-text > p{
     margin-bottom: 30px;
+}
+
+.form-section{
+    
 }
