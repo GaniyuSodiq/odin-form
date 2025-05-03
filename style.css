@@ -88,13 +88,13 @@ body{
 .form-top{
     /* border: 1px solid black; */
     background-color: white;
-    box-shadow: 0px 3px 1px 0px #333;
+    box-shadow: 0 1px 2px 1px rgba(0, 0, 0, 0.219);    
     padding: 5px 0 20px 30px;
 }
 
 .form-top > div{
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 h3{
@@ -120,7 +120,20 @@ label {
 input {
     border: 1px solid rgba(128, 128, 128, 0.491);
     border-radius: 3px;
-    padding: 5px;
-    font-size: .5rem;
+    padding: 3px;
+    font-size: .7rem;
     /* display: block; */
+}
+
+input:focus {
+}
+
+input:valid{
+    border: 1.5px solid #046d80;
+    box-shadow: 0 2px 2px 1px rgba(0, 0, 0, 0.114);    
+
+}
+
+input:invalid {
+    border: 1.5px solid red;
 }
