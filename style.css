@@ -17,7 +17,8 @@ body{
     display: flex;
     height: 100vh;
     justify-content: center;
-
+    background-color: azure;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .odin-hero{
@@ -61,12 +62,25 @@ body{
     color: inherit;
 }
 
-.content{
-    min-width: 500px;
-    background-color: blanchedalmond;
+.rhs{
+    width: 450px;
+    margin: 70px 30px;
+    
 }
 
-.rhs{
-    width: 350px;
-    margin: 20px;
+.content{
+    min-width: 500px;
+    background-color: white;
+    font-weight: bold;
+    font-size: .9rem;
+    line-height: 1.4;
+    color: #333;
+}
+
+.hero-text{
+
+}
+
+.hero-text p{
+    margin-bottom: 30px;
 }
