@@ -159,3 +159,9 @@ button + p{
     font-size: .7rem;
     font-weight: 500;
 }
+
+p a{
+    color: #596d48;
+    font-weight: bolder;
+    text-decoration: none;
+}
