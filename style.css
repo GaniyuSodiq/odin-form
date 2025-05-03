@@ -137,3 +137,20 @@ input:valid{
 input:invalid {
     border: 1.5px solid red;
 }
+
+.form-bottom{
+    padding: 5px 0 20px 30px;
+
+}
+
+.form-bottom button{
+    margin: 20px 0;
+    padding: 10px 30px;
+    font-size: .7rem;
+    color: #fafafa;
+    background-color: #596d48;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
